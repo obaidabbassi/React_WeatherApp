@@ -1,0 +1,103 @@
+.container-fluid{
+
+background-image: url('../public/images/weather.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+.form-control{
+
+  
+}
+
+.btn{
+position:absolute;
+    left: 498px;
+    top: -54px;
+}
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1199px) {
+    .btn{
+      
+            left: 440px;
+           
+        } 
+}
+
+
+@media (max-width:991px) {
+    .btn{
+      
+            left: 300px;
+           
+        } 
+}
+
+@media (max-width:767px) {
+    .btn{
+      
+            left: 350px;
+           
+        } 
+        .table{
+
+            margin-left:-79px;
+            font-size: 12px;
+        }
+}
+
+@media (max-width:640px) {
+    .form-control{
+
+        width: 80%;
+    }   .btn{
+      
+        left:194px;
+       
+    } 
+        .table{
+
+            margin-left:-12px;
+            font-size: 12px;
+        }
+}
